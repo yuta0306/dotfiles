@@ -1,1 +1,0 @@
-/Users/yubo1336/.p10k.zsh
