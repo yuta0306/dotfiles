@@ -5,6 +5,9 @@
 # .gitignore
 !/.gitignore
 
+# README
+!/README.md
+
 # bin
 !/.bin/
 !/.bin/**
