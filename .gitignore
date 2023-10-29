@@ -1,0 +1,42 @@
+# ignore all
+/*
+/.**
+
+# .gitignore
+!/.gitignore
+
+# bin
+!/.bin/
+!/.bin/**
+
+# for zsh
+!/.zshrc
+!/.zshenv
+!/.zfunc/
+/.zfunc/**  # ディレクトリは管理したいけど中身はいらないときはこんな感じ
+!/.zsh/
+!/.zsh/dircolors
+!/.zsh/rc/
+!/.zsh/rc/**
+!/.zsh/zkbd/
+!/.zsh/zkbd/**
+!/.zsh/zfunc/
+!/.zsh/zfunc/**
+!/.zsh/completion/
+/.zsh/completion/**
+
+# Powerlink
+!/.p10k.zsh
+
+# for config
+!/.config/
+
+# for git
+!/.gitconfig_shared
+
+# for sheldon
+!/.config/sheldon/
+
+# for vim
+!/.vimrc
+!/.gvimrc
