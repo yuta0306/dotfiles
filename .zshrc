@@ -5,11 +5,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# common
-# alias la='ls -a'
-# alias ll='ls -l'
-# alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
-
 for f in $HOME/.zsh/?*; do
   if [ -f $f ]; then
     source $f
@@ -21,6 +16,10 @@ for f in $HOME/.zsh/?*; do
     done
   fi
 done
+
+if [ -e $HOME/.gitconfig_shared ]; then
+  git config --global include.path "~/.gitconfig_shared"
+fi
 
 export EDITOR=vim sheldon init
 
