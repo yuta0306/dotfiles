@@ -1,0 +1,11 @@
+# common
+alias ll='ls -l'
+alias la='ls -a'
+
+# application
+alias code='/Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code'
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+alias safari='/Applications/Safari.app/Contents/MacOS/Safari'
+alias line='/Applications/LINE.app/Contents/MacOS/LINE'
+alias twitter='/Applications/Twitter.app/Contents/MacOS/Twitter; exit;'
+
