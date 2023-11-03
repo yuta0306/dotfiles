@@ -28,8 +28,6 @@
 !/.zsh/completion/
 /.zsh/completion/**
 !/.zprofile
-!/.zsh/.alias
-!/.zsh/.programs
 
 # Powerlink
 !/.p10k.zsh
