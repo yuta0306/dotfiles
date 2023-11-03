@@ -27,6 +27,7 @@
 !/.zsh/zfunc/**
 !/.zsh/completion/
 /.zsh/completion/**
+!/.zprofile
 
 # Powerlink
 !/.p10k.zsh
