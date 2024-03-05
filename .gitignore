@@ -44,3 +44,6 @@
 # for vim
 !/.vimrc
 !/.gvimrc
+
+# for tmux
+!/.tmux.conf
